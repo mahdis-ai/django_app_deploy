@@ -13,8 +13,8 @@ EXPOSE 8000
 RUN python3 -m venv venv && \
     source  venv/bin/activate && \
     pip install --upgrade pip && \
-    pip install -r /requirements.txt && \
+    pip install -r /requirements.txt 
 
 
-ENV PATH="/py/bin:$PATH"
+
 
