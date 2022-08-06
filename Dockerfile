@@ -14,8 +14,7 @@ RUN python3 -m venv venv && \
     source  venv/bin/activate && \
     pip install --upgrade pip && \
     pip install -r /requirements.txt && \
-    adduser --disabled-password --no-create-home app 
+
 
 ENV PATH="/py/bin:$PATH"
 
-USER app
